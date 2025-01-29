@@ -1,0 +1,41 @@
+#div1{
+    background-color: blue;
+    border: 3px groove black;
+}
+
+#span1{
+    color: lightseagreen;
+}
+
+#div2{
+    background-color: rgb(27, 116, 9);
+    border: 3px dotted red;
+}
+
+#span2{
+    color: blueviolet;
+}
+
+#div3{
+    background-color: rgb(226, 117, 15);
+    border: 3px dashed rgb(124, 0, 124);
+}
+
+#span3{
+    color: darkred;
+}
+
+#colum1{
+    color: chartreuse;
+    border: 3px ridge rgb(63, 1, 14);
+}
+
+#colum2{
+    color: darkslategray;
+    border: 3px double rgb(255, 149, 29);
+}
+
+#colum3{
+    color: deeppink;
+    border: 3px groove rgb(3, 255, 24);
+}

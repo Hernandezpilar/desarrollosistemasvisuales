@@ -1,0 +1,82 @@
+.navbar {
+    background-color: #98ff96 !important;
+    padding: 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    border-radius: 15px;
+}
+
+.navbar-brand {
+    color: white !important;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.navbar-nav .nav-link {
+    color: white !important;
+    font-size: 1.2rem;
+    margin-right: 15px;
+}
+.navbar-toggler {
+    border-color: white;
+}
+.navbar-toggler-icon {
+    background-color: white;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #009929 !important; 
+    text-decoration: underline; 
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Consolas, monospace;
+}
+
+
+.producto-container2 {
+    width: 320px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0px 4px 15px #5ccb5f;
+    padding: 20px;
+    text-align: center;
+    border: 3px solid #98ff96;
+    margin-top: 80px;
+}
+.producto-container2 img {
+    width: 100%;
+    border-radius: 10px;
+    border: 2px solid #98ff96;
+}
+.producto-titulo2 {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 12px 0;
+    color: #009929;
+}
+.producto-descripcion2 {
+    font-size: 16px;
+    color: #000000;
+    font-style: italic;
+}
+
+
+.producto-container2 button {
+    background-color: #009929 !important;
+    border-color: #009929 !important;
+    cursor: pointer;
+}
+
+
+button:hover {
+    opacity: 0.8;
+    background-color: #5ccb5f !important;
+}

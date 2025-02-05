@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <title> 2do Parcial</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/plugins/bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/theme.css" />
+    <link rel="stylesheet" href="assets/css/MoneAdmin.css" />
+    <link rel="stylesheet" href="assets/plugins/Font-Awesome/css/font-awesome.css" />
+    <link rel="stylesheet" href="assets/plugins/social-buttons/social-buttons.css" />
+    <link rel="stylesheet" href="estilo\examensegparcial.css">
+    </head>
+    <body>
+
+         <!-- Barra de navegación -->
+         <nav class="navbar navbar-expand-lg navbar-light bg-light p-3">
+            <a class="navbar-brand" href="#">
+                 Mi Tienda
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="icon-home" onclick="logEvent('Inicio')"></i> Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="icon-user" onclick="logEvent('Nosotros')"></i> Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="icon-shopping-cart" onclick="logEvent('Tienda')"></i> Tienda</a>
+                    </li>
+                    <li>
+                        <a class="nav-link" href="#"><i class="icon-shopping-cart" onclick="logEvent('Carrito')"></i> Carrito</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" onclick="logEvent('Cuenta')"><i class="icon-user"></i> Mi Cuenta</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="producto-container2">
+            <img src="imagenes\shampooverde.png">
+            <div class="producto-titulo2">Título del Producto</div>
+            <div class="producto-descripcion2">Descripción breve del producto</div>
+            <div class="producto-precio2"><i class="icon-tag"></i> $100.00</div>
+            <div class="producto-existencias2"><i class="icon-inbox"></i> Existencias: 20</div>
+            <button class="btn btn-primary mt-2" onclick="agregarCarrito('Shampoo Verde', 100)"><i class="icon-shopping-cart"></i> Agregar al carrito</button>
+        
+        </div>
+        
+        <div class="producto-container2">
+            <img src="imagenes\shampooverde.png">
+            <div class="producto-titulo2">Título del Producto</div>
+            <div class="producto-descripcion2">Descripción breve del producto</div>
+            <div class="producto-precio2"><i class="icon-tag"></i> $100.00</div>
+            <div class="producto-existencias2"><i class="icon-inbox"></i> Existencias: 20</div>
+            <button class="btn btn-primary mt-2" onclick="agregarCarrito('Shampoo Verde', 100)"><i class="icon-shopping-cart"></i> Agregar al carrito</button>
+        
+        </div>
+
+        <div class="producto-container2">
+            <img src="imagenes\shampooverde.png">
+            <div class="producto-titulo2">Título del Producto</div>
+            <div class="producto-descripcion2">Descripción breve del producto</div>
+            <div class="producto-precio2"><i class="icon-tag"></i> $100.00</div>
+            <div class="producto-existencias2"><i class="icon-inbox"></i> Existencias: 20</div>
+            <button class="btn btn-primary mt-2" onclick="agregarCarrito('Shampoo Verde', 100)"><i class="icon-shopping-cart"></i> Agregar al carrito</button>
+        
+        </div>
+
+    </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="scripts/algoritmos.js"></script>
+
+</html>
